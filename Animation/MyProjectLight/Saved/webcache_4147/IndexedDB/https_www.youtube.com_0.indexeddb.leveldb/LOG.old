@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:82a47cb3a5149d92ed9a353d8381502e5c0a46cf7bd323455c4924588dd20b5f
-size 1540
+2022/10/07-17:30:13.258 2910 Reusing MANIFEST C:/Users/barth/Documents/Unreal Projects/MyProject/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/07-17:30:13.259 2910 Recovering log #4
+2022/10/07-17:30:13.259 2910 Reusing old log C:/Users/barth/Documents/Unreal Projects/MyProject/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2022/10/07-18:05:20.602 4c70 Level-0 table #8: started
+2022/10/07-18:05:20.615 4c70 Level-0 table #8: 8131 bytes OK
+2022/10/07-18:05:20.615 4c70 Delete type=0 #4
+2022/10/07-18:05:20.616 4c70 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/10/07-18:05:20.616 4c70 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00p\xa2\x834;xB\x00\x03\x00\x00\x00\x00\x00\x00\x08@' @ 190 : 1
+2022/10/07-18:05:20.616 4c70 Compacting 1@1 + 1@2 files
+2022/10/07-18:05:20.624 4c70 Generated table #9@1: 42 keys, 2374 bytes
+2022/10/07-18:05:20.624 4c70 Compacted 1@1 + 1@2 files => 2374 bytes
+2022/10/07-18:05:20.624 4c70 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/10/07-18:05:20.625 4c70 Delete type=2 #5
+2022/10/07-18:05:20.625 4c70 Delete type=2 #8
+2022/10/07-18:05:20.626 4c70 Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00p\xa2\x834;xB\x00\x03\x00\x00\x00\x00\x00\x00\x08@' @ 190 : 1 .. (end); will stop at (end)

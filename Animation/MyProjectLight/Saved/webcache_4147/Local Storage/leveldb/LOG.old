@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7a508e7972f96929750299242b44084c1509412790fb51fdbd95666dd2a70117
-size 551
+2022/11/15-12:51:19.249 23d8 Reusing MANIFEST C:/Users/barth/Desktop/HWU/3D graphics and animation/MyProjectLight/Saved/webcache_4147\Local Storage\leveldb/MANIFEST-000001
+2022/11/15-12:51:19.249 23d8 Recovering log #7
+2022/11/15-12:51:19.250 23d8 Reusing old log C:/Users/barth/Desktop/HWU/3D graphics and animation/MyProjectLight/Saved/webcache_4147\Local Storage\leveldb/000007.log 
+2022/11/15-13:37:21.630 3ed0 Level-0 table #11: started
+2022/11/15-13:37:21.635 3ed0 Level-0 table #11: 14077 bytes OK
+2022/11/15-13:37:21.636 3ed0 Delete type=0 #7
