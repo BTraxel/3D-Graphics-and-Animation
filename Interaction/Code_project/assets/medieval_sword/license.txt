@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:515e70d7ab7694400f31eb41ea88b04b9febc11ab367ea28183d5c31b144d255
-size 668
+Model Information:
+* title:	medieval sword
+* source:	https://sketchfab.com/3d-models/medieval-sword-da574cba504e4b83a3293f3d3bd067fb
+* author:	LowSeb (https://sketchfab.com/lowseb)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "medieval sword" (https://sketchfab.com/3d-models/medieval-sword-da574cba504e4b83a3293f3d3bd067fb) by LowSeb (https://sketchfab.com/lowseb) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

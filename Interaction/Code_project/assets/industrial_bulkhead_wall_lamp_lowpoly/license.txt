@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5023d61ec32194b71ba122d01cfddb8538e2c77d61d8146ff9e8f2c12300b774
-size 772
+Model Information:
+* title:	Industrial Bulkhead Wall Lamp Lowpoly
+* source:	https://sketchfab.com/3d-models/industrial-bulkhead-wall-lamp-lowpoly-4c50439bcbc247629fe2194862d7acc9
+* author:	iwanPlays (https://sketchfab.com/iwanPlays)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Industrial Bulkhead Wall Lamp Lowpoly" (https://sketchfab.com/3d-models/industrial-bulkhead-wall-lamp-lowpoly-4c50439bcbc247629fe2194862d7acc9) by iwanPlays (https://sketchfab.com/iwanPlays) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

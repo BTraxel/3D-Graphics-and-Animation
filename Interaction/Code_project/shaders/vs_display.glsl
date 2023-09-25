@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e7ad3a40b05d316aaf7804aa56b9e74e8ad2734367c47e9e312156b526f4208
-size 212
+#version 410 core
+layout(location = 0) in vec3 position;
+layout (location = 1) in vec2 textureCoords;
+
+out vec2 TexCoords;
+
+void main()
+{
+    gl_Position = vec4(position, 1.0f); 
+    TexCoords = textureCoords;
+} 

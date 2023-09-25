@@ -1,3 +1,46 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d74c3aaa35e2d38030ec69b63486a77fb48b738a0d6ad9ea22ba526b6bf80c3c
-size 1099
+// 3D Graphics and Animation - Pipeline Template
+// Create a program and attach shaders.
+
+#pragma once
+
+
+#define GL_SILENCE_DEPRECATION
+#include <glad/glad.h>
+//#include <glm/glm.hpp>
+#include <string>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <vector>
+using namespace std;
+//#include <vector>
+
+
+ struct Pipe{
+	public:
+		GLuint program;		     							// Pipeline reference
+		string vsName = ""s;								// name of file for vertex shader							// name of file for geometry shader
+		string fsName = ""s;								// name of file for fragment shader
+		bool error = false;									// Flag any errors.
+	private:
+
+ };
+
+class Pipeline{
+	public:
+		Pipeline();
+	
+		Pipe pipe;											// Save all information.
+
+		void CreatePipeline();								// Create OpenGL Pipeline Program
+		void LoadShaders(string vs, string fs);				// Load shaders using files		
+		void ReloadShaders();								// Reload Shaders for debugging...			
+
+		virtual ~Pipeline();
+	protected:
+
+	private:
+		string ReadShader(string name);
+		void CheckErrorShader(GLuint shader, string name);
+		void CheckErrorLinking();
+};

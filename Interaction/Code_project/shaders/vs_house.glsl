@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc81822b82f44182c83f83778f5a69f5728a0aac440b89192364079be4e01273
-size 620
+#version 410 core
+
+layout (location = 0) in vec3 in_vertex;
+layout (location = 1) in vec3 in_normals;
+layout (location = 2) in vec2 in_tc;
+
+out VS_OUT
+{
+    vec4 fragPos;
+    vec4 normals;
+    vec2 tc;
+}vs_out;
+
+uniform mat4 model_matrix;
+uniform mat4 view_matrix;
+uniform mat4 proj_matrix;
+
+uniform mat4 instancematrixes;
+
+void main(void)
+{
+    gl_Position = proj_matrix * view_matrix * vec4(vec3(instancematrixes * vec4(in_vertex, 1.0f)),1.0);
+    vs_out.tc = in_tc;
+
+    vec3 normalsT = mat3(instancematrixes);
+    vs_out.normals = vec4(normalsT, 1.0);
+
+
+    vs_out.fragPos = instancematrixes* vec4(in_vertex, 1.0);
+}

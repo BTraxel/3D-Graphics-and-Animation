@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:be80891758f00bbcccdbc512aea129994583e4ef750aced66e5aa3bbdee945ca
-size 672
+Model Information:
+* title:	Western barrel
+* source:	https://sketchfab.com/3d-models/western-barrel-b6d5cdb0a41340e0bbb27935ec4b955f
+* author:	FFeller (https://sketchfab.com/FFeller)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Western barrel" (https://sketchfab.com/3d-models/western-barrel-b6d5cdb0a41340e0bbb27935ec4b955f) by FFeller (https://sketchfab.com/FFeller) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
